@@ -1,0 +1,211 @@
+.gtabs {
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 900px;
+  margin:0 auto;
+  position: relative;
+}
+ 
+.gtabs label {
+  order: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem;
+  margin-right: 0.2rem;
+  cursor: pointer;
+  background-color:#EDF2F7;
+  font-weight: bold;
+  transition: background ease 0.3s;
+}
+ 
+.gtabs .tab {
+  order: 9;
+  width: 80%;
+  height: 100%;
+  display: none;
+  background: #fff;
+ /* padding:10px 5px;*/
+  border: 2px solid #E9E9E9;
+  border-bottom-right-radius:10px;
+  border-bottom-left-radius:10px;
+  margin-top: 12px;
+
+}
+ 
+.gtabs input[type="radio"] {
+  display: none;
+}
+ 
+.gtabs input[type="radio"]:checked + label {
+  background: #fff;
+}
+ 
+.gtabs input[type="radio"]:checked + label + .tab {
+  display: block;
+}
+ 
+@media (max-width: 465px) {
+  .gtabs .tab,
+  .gtabs label {
+   order: initial;
+  }
+ 
+  .gtabs label {
+    width: 100%;
+    margin-left: 50px;
+  }
+}
+
+.property-container{
+width:100%;
+height:auto;
+margin:0 auto;
+position: relative;
+float: left;
+}
+
+
+.asste_col{
+   width:300px;
+   height:auto;
+   margin: 0 auto;
+   position: relative;
+   top: 60px;
+   border: 1px solid rgb(217 217 217);
+   border-radius:5px;
+   padding: 10px;
+   box-shadow: -1px 0px 5px 4px rgb(217 217 217);
+    background-color:#fff;
+}
+
+.asste_col h3{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.asste_col .ass_result{
+   font-size: 20px;
+  font-weight: 600;
+  text-align: center;       
+  width: auto;
+
+} 
+.bctax_rate{
+    font-size: 20px;
+  font-weight: 600;
+  text-align: center;       
+  width: auto;
+}
+
+.pro_color{
+background-color:#F7F7F8;
+min-height:500px;  
+}
+
+.roi-container-2{
+width:74%;
+height:auto;
+margin:0 auto;
+position: relative;
+padding: 10px 0px;  
+}
+
+
+/*====== new*/
+
+.gst-col-1,
+.gst-col-2{
+width:48%;
+float:left;
+}
+
+.gst-col-3,
+.gst-col-4{
+width:100%;
+float:left;
+}
+
+.gstfield {
+width: 80%;
+    padding: 10px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 17px;
+    margin-right: 10px;
+    border-radius:5px;
+ }
+
+.gst_title{
+ font-size:20px; 
+ font-weight: 600;
+ float: left;
+ margin-top: 10px;
+ width: 100%;
+}
+.gtabs-pad{
+  padding:0px 10px;
+}
+
+.gst_asste{
+width: 100%;
+margin: 0 auto;
+position: relative;
+top: 140px;
+margin-left: 13px;
+} 
+
+hr{
+ border: 0px solid #000 !important;
+ margin: 0px !important;
+ padding: 0px !important;
+ width: 100% !important;
+}
+
+table{
+  empty-cells: hide;
+}
+
+
+
+/*====== B.C*/
+
+
+.gstfield {
+width: 80%;
+    padding: 10px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 17px;
+    margin-right: 10px;
+    border-radius:5px;
+ }
+
+.gst_title{
+ font-size:20px; 
+ font-weight: 600;
+ float: left;
+ margin-top: 10px;
+ width: 100%;
+}
+.gtabs-pad{
+  padding:0px 10px;
+}
+
+/*====== monitoba*/
+
+.gst_title{
+ font-size:20px; 
+ font-weight: 600;
+ float: left;
+ margin-top: 10px;
+ width: 100%;
+}
+
+.gtabs-pad{
+  padding:0px 10px;
+}
+
